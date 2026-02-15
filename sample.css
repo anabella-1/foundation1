@@ -54,6 +54,11 @@ header {
 .logo span {
     color: #fbc531;
 }
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 
 nav a {
     color: white;
@@ -68,6 +73,10 @@ nav a:hover {
 
 .menu-toggle {
     display: none;
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 /*  BUTTONS  */
