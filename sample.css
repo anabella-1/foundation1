@@ -12,7 +12,26 @@ body {
     background: #f9f9f9;
     color: #333;
 }
+/*  */
+.body.dark-mode{
+  background: #121212;
+  color: #e0e0e0;
+}
 
+body.dark-mode header,
+body.dark-mode footer{
+  background: #1e1e1e;
+}
+
+/*body.dark-mode .option-card,
+body.dark-mode .involve-section{
+   background:;
+}*/
+
+body.dark-mode .btn{
+  background:gray;
+}
+/*  */
 
 /*  HEADER */
 header {
